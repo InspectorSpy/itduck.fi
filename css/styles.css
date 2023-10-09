@@ -1,0 +1,220 @@
+/*
+rgba(35,36,50,255) gray
+#1c1d28 darker gray
+rgba(225,189,46,255) yellow
+*/
+
+html {
+    font-family: Lato !important;
+}
+
+body {
+    width: 100%;
+    background-color: #1c1d28;
+    color: rgba(225, 189, 46, 255);
+    font-family: Lato;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.25);
+}
+
+h1 {
+    font-size: 2.45em;
+    font-weight: 700;
+    color: rgba(225, 189, 46, 255);
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p {
+    color: rgba(225, 189, 46, 255);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.container a {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.progressReport {
+    font-size: 0.65em;
+    position: fixed;
+    right: 12vmin;
+    top: 6vmin;
+    text-align: center;
+    line-height: inherit;
+}
+
+.borderOne {
+    border: 3px dashed rgba(225,189,46,255);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.error {
+    color: #c92127;
+    fill: #c92127;
+}
+
+.warning {
+    color: #ffcc33;
+    fill: #ffcc33;
+}
+
+.success {
+    color: #5aba47;
+    fill: #5aba47;
+}
+
+.icon-large {
+    height: 132px;
+    width: 132px;
+}
+
+.description-text {
+    color: #707070;
+    letter-spacing: -0.01em;
+    font-size: 1.25em;
+    line-height: 20px;
+}
+
+.w3-top {
+    background-color: rgba(35, 36, 50, 255);
+    color: rgba(225, 189, 46, 255);
+    padding-bottom: auto;
+    margin-bottom: 40px;
+    top: 0;
+    text-align: right;
+}
+
+.w3-barX .w3-bar-itemX {
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    outline: 0;
+    margin-bottom: auto;
+}
+
+.navbar {
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 0.7em;
+    top: 0;
+    width: 100%;
+    background-color: rgba(35, 36, 50, 255); 
+    z-index: 999;
+}
+
+.sticky-navbar {
+    background-color: rgba(35, 36, 50, 255); /* Dark gray */
+    color: rgba(225, 189, 46, 255); /* Yellow */
+    padding: 10px 0;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.sticky.navbar a {
+    color: rgba(225, 189, 46, 255);
+    /* Yellow */
+    text-decoration: none;
+    font-size: 1.5rem;
+    /* Adjust the font size of the links */
+    margin: 0 10px;
+    /* Adjust the spacing between the links */
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 0.7em;
+}
+
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(35, 36, 50, 255);
+    /* Change to your desired dark gray color */
+    color: rgba(225, 189, 46, 255);
+    /* Change the text color as needed */
+    padding: 10px 0;
+    /* Adjust the padding to your preference */
+    font-size: 1rem;
+    /* Adjust the font size as needed */
+    text-align: center;
+    z-index: 999;
+    /* Ensure it appears above other content if necessary */
+}
+
+.sticky-footer a {
+    color: rgba(225, 189, 46, 255);
+    /* Set the color for the social icons */
+    margin: 0 10px;
+    /* Adjust the spacing between the icons */
+    text-decoration: none;
+    /* Remove underlines from the links */
+    font-size: 1.5rem;
+    /* Adjust the font size of the icons */
+}
+
+.sticky-footer a:hover {
+    opacity: 0.7;
+    /* Add hover effect to the icons */
+}
+
+.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
