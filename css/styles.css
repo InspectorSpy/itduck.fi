@@ -58,7 +58,7 @@ p {
 .progressReport {
     font-size: 0.65rem;
     position: fixed;
-    right: 12vmin;
+    right: 2vmin;
     top: 6vmin;
     text-align: center;
     line-height: inherit;
