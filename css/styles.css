@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-    font-size: 2.45em;
+    font-size: 2.45rem;
     font-weight: 700;
     color: rgba(225, 189, 46, 255);
     letter-spacing: -0.02em;
@@ -56,7 +56,7 @@ p {
 }
 
 .progressReport {
-    font-size: 0.65em;
+    font-size: 0.65rem;
     position: fixed;
     right: 12vmin;
     top: 6vmin;
@@ -64,10 +64,16 @@ p {
     line-height: inherit;
 }
 
-.borderOne {
-    border: 3px dashed rgba(225,189,46,255);
-    border-radius: 5px;
-    padding: 3px;
+p {
+    outline-color: rgba(225, 189, 46, 255);
+    margin: 30px;
+    outline-offset: 5px;
+}
+
+p.dashed {
+    outline-style: dashed;
+    border-radius: 3px;
+    font-size: 1rem;
 }
 
 .error {
@@ -93,7 +99,7 @@ p {
 .description-text {
     color: #707070;
     letter-spacing: -0.01em;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     line-height: 20px;
 }
 
@@ -117,16 +123,18 @@ p {
 .navbar {
     padding-bottom: 30px;
     margin-bottom: 40px;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     top: 0;
     width: 100%;
-    background-color: rgba(35, 36, 50, 255); 
+    background-color: rgba(35, 36, 50, 255);
     z-index: 999;
 }
 
 .sticky-navbar {
-    background-color: rgba(35, 36, 50, 255); /* Dark gray */
-    color: rgba(225, 189, 46, 255); /* Yellow */
+    background-color: rgba(35, 36, 50, 255);
+    /* Dark gray */
+    color: rgba(225, 189, 46, 255);
+    /* Yellow */
     padding: 10px 0;
     font-size: 1rem;
     text-align: right;
@@ -144,7 +152,7 @@ p {
 
 .footer {
     margin-top: 40px;
-    font-size: 0.7em;
+    font-size: 0.7rem;
 }
 
 .sticky-footer {
