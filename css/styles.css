@@ -56,7 +56,7 @@ p {
 }
 
 .progressReport {
-    font-size: 0.65rem;
+    font-size: 1rem;
     position: fixed;
     right: 4vmin;
     top: 6vmin;
@@ -68,12 +68,6 @@ p {
     outline-color: rgba(225, 189, 46, 255);
     margin: 30px;
     outline-offset: 5px;
-}
-
-p.dashed {
-    outline-style: dashed;
-    border-radius: 3px;
-    font-size: 1rem;
 }
 
 .error {
@@ -258,4 +252,10 @@ p.dashed {
 .button-1:hover {
     background-color: rgba(35, 36, 50, 255);
     color: rgba(225, 189, 46, 255);
+}
+
+.distract {
+    font-size: 10px;
+    margin: 0;
+    line-height: 1;
 }
