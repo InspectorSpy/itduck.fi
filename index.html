@@ -54,21 +54,26 @@
             <div class="description-text animated fadeIn delay-1s">
                 <p>It will be up when I get around to it.</p>
                 <p>I have no ideas what to build here :P</p>
+                <!-- Counter button -->
+                <div v-scope="{ count: 0 }">
+                    {{ count }}
+                    <br><button @click="count++" class="button-1">Counter</button>
+                </div>
             </div>
         </div>
-        
+
         <!-- Progress Report Section -->
         <div class="progressReport">
             <p class="dashed">
                 <i class="fa fa-angle-double-up" aria-hidden="true" style="font-size:1.25rem"></i>
-                Here you can see some links, <i class="fa fa-angle-double-up" aria-hidden="true" style="font-size:1.25rem"></i>
+                Here you can see some links, <i class="fa fa-angle-double-up" aria-hidden="true"
+                    style="font-size:1.25rem"></i>
                 <br>
                 that will someday take you somewhere.
             </p>
         </div>
 
     </div>
-
 
     <!-- Footer Section -->
     <section class="footer sticky-footer">
@@ -79,6 +84,8 @@
         InspectorSpy © 2023
     </section>
     <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/petite-vue" defer init></script>
+
 </body>
 
 </html>
