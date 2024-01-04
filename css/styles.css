@@ -56,9 +56,9 @@ p {
 }
 
 .progressReport {
-    font-size: 0.65rem;
+    font-size: 1rem;
     position: fixed;
-    right: 2vmin;
+    right: 4vmin;
     top: 6vmin;
     text-align: center;
     line-height: inherit;
@@ -68,12 +68,6 @@ p {
     outline-color: rgba(225, 189, 46, 255);
     margin: 30px;
     outline-offset: 5px;
-}
-
-p.dashed {
-    outline-style: dashed;
-    border-radius: 3px;
-    font-size: 1rem;
 }
 
 .error {
@@ -225,4 +219,43 @@ p.dashed {
 
 .fa-instagram {
     color: black;
+}
+
+/* CSS */
+.button-1 {
+    background-color: rgba(225, 189, 46, 255);
+    color: rgba(35, 36, 50, 255);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0.2rem;
+    margin-top: 10px;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+.button-1:hover {
+    background-color: rgba(35, 36, 50, 255);
+    color: rgba(225, 189, 46, 255);
+}
+
+.distract {
+    font-size: 10px;
+    margin: 0;
+    line-height: 1;
 }
