@@ -1,11 +1,36 @@
 /*
-rgba(35,36,50,255) gray
+rgba(35,36,50,255), #232432 gray
 #1c1d28 darker gray
-rgba(225,189,46,255) yellow
+rgba(225,189,46,255), #e1bd2e yellow
 */
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1c1d28; /* Set background color for dark mode */
+      color: #e1bd2e; /* Set text color for dark mode */
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: #1c1d28; /* Set background color for light mode */
+      color: #e1bd2e; /* Set text color for light mode */
+    }
+  }
+  
+  /* Override system color scheme preference */
+  @media (prefers-color-scheme: no-preference) {
+    body {
+      background-color: #1c1d28; /* Set default background color */
+      color: #e1bd2e; /* Set default text color */
+    }
+  }
+
 
 html {
     font-family: Lato !important;
+    background-color: #1c1d28;
 }
 
 body {
