@@ -1,44 +1,32 @@
 /*
-rgba(35,36,50,255), #232432 gray
+#232432 gray
 #1c1d28 darker gray
-rgba(225,189,46,255), #e1bd2e yellow
+#e1bd2e yellow
 */
 
-
-@media (prefers-color-scheme: dark) {
-    body {
-      background-color: #1c1d28; /* Set background color for dark mode */
-      color: #e1bd2e; /* Set text color for dark mode */
-    }
-  }
-  
-  @media (prefers-color-scheme: light) {
-    body {
-      background-color: #1c1d28; /* Set background color for light mode */
-      color: #e1bd2e; /* Set text color for light mode */
-    }
-  }
-  
-  /* Override system color scheme preference */
-  @media (prefers-color-scheme: no-preference) {
-    body {
-      background-color: #1c1d28; /* Set default background color */
-      color: #e1bd2e; /* Set default text color */
-    }
-  }
-
+:root {
+    --gray: #232432;
+    /* Specify your desired color */
+    --darker-gray: #1c1d28;
+    /* Initial background color */
+    --yellow: #e1bd2e;
+    /* Initial text color */
+}
 
 html {
     font-family: Lato !important;
-    background-color: #1c1d28;
+    height: 100%;
+    background: var(--darkger-gray);
 }
 
 body {
-    width: 100%;
-    background-color: #1c1d28;
-    color: rgba(225, 189, 46, 255);
+    background: var(--darker-gray);
+    color: var(--yellow);
     font-family: Lato;
     text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.25);
+    height: 100%;
+    min-height: 100%;
+    position: relative;
 }
 
 h1 {
@@ -46,8 +34,17 @@ h1 {
     font-weight: 700;
     color: rgba(225, 189, 46, 255);
     letter-spacing: -0.02em;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 2rem;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: var(--yellow);
 }
 
 p {
